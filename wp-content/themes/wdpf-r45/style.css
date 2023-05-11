@@ -1,0 +1,24 @@
+/*
+Theme Name: WPDF-R45
+Theme URI: http://www.idbproject.com/wptheme
+Description: Sample theme for the WordPress for Web Developers book.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Author: IDB-BISEW
+Author URI: http://isdb-bisew.org
+Tags: blue, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style,
+featured-images, microformats, post-formats, translation-ready, responsive
+Text Domain: edu
+*/
+table{
+    width: 100%;
+    border: 5px solid gray;
+}
+th,td{
+    border: 1px solid gray; 
+}
+
+pre{
+    white-space: normal;
+}

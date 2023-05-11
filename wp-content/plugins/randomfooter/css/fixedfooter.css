@@ -1,0 +1,10 @@
+img#randomfoot{
+    display: block;
+    margin: 0 auto;            
+    width:80%;
+    box-shadow: 0px 0px 0px gray; 
+    transition: all .5s;
+}
+img#randomfoot:hover{
+   box-shadow: 0px 0px 15px gray; 
+}

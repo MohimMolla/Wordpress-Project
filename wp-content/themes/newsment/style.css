@@ -1,0 +1,189 @@
+/*
+Theme Name: Newsment
+Theme URI: https://afthemes.com/products/newsment/
+Author: AF themes
+Author URI: https://afthemes.com
+Requires at least: WordPress 4.0
+Requires PHP: 5.6
+Tested up to: 6
+Description:  Newsment is a child theme of CoverNews. The theme has a new advertisement widget area, default header image as well as some significant fonts and color configuration adjustments. In addition, the design also modified some of the default nature of the front page layout. You can implement layouts such as a personal blog, modern news journals, fashion magazines, travel blogging & magazine, vibrant news sites, and more. It is also compatible with Elementor, Gutenberg, and RTL language support along with the WooCommerce plugin that helps you to integrate an online business with your blog easily with the help of the available customizer options and widgets. The theme is SEO friendly with optimized code and awesome support.
+See Demo: https://demo.afthemes.com/covernews/newsment/
+Support: https://afthemes.com/supports/
+Template: covernews
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newsment
+Tags: news, blog, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Newsment WordPress Theme, Copyright 2022 AF themes
+Newsment is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body .main-navigation a,
+body .font-family-1,
+body .site-description,
+body .trending-posts-line,
+body .widget-title,
+body .em-widget-subtitle,
+body .grid-item-metadata .item-metadata,
+body .af-navcontrols .slide-count,
+body .figure-categories .cat-links,
+body .nav-links a {
+font-family: 'Roboto';
+}
+
+body .full-plus-list .spotlight-post:first-of-type .figure-categories .cat-links a.covernews-categories
+body .figure-categories .cat-links a.covernews-categories {
+    background-color: #12A86B;
+    color: #ffffff;
+    
+}
+
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories, 
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories, 
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories, 
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories, 
+.trending-story .figure-categories .cat-links a.covernews-categories{
+color: #12A86B;
+}
+
+/*C23B0E*/
+body .full-plus-list .spotlight-post:first-of-type .figure-categories .cat-links a.covernews-categories.category-color-2,
+body .figure-categories .cat-links a.category-color-2 { 
+	background-color: #FF8C02;
+	color: #ffffff;
+    
+}
+
+
+.trending-story .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories.category-color-2{
+    color: #FF8C02;
+}
+
+
+body .full-plus-list .spotlight-post:first-of-type .figure-categories .cat-links a.covernews-categories.category-color-3,
+body .figure-categories .cat-links a.category-color-3 {
+
+
+    background-color: #ED2938;
+    color: #ffffff;
+}
+
+.trending-story .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories.category-color-3{
+    color: #ED2938;
+}
+
+
+body .top-masthead {
+    background: #000000;
+}
+
+/*6A5550*/
+
+body span.menu-description{
+        background: #12A86B;
+}
+
+
+
+/*Header layout 3*/
+.header-layout-3 .masthead-banner .site-branding {
+    text-align: center;
+}
+
+.header-layout-3 .site-header .site-branding .site-title, .site-branding .site-title{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+
+body .secondary-color,
+body button,
+body input[type="button"],
+body input[type="reset"],
+body input[type="submit"],
+body .site-content .search-form .search-submit,
+body .site-footer .search-form .search-submit,
+body .em-post-format i,
+body span.header-after:after,
+body #secondary .widget-title span:after,
+body .af-tabs.nav-tabs > li > a.active:after,
+body .af-tabs.nav-tabs > li > a:hover:after,
+body .exclusive-posts .exclusive-now,
+body span.trending-no,
+body .tagcloud a:hover,
+body .em-reated-posts .related-title::before, 
+body .widget_block .wp-block-search__label::before, 
+body .widget_block .wp-block-group__inner-container h1::before, 
+body .widget_block .wp-block-group__inner-container h2::before, 
+body .widget_block .wp-block-group__inner-container h3::before, 
+body .widget_block .wp-block-group__inner-container h4::before, 
+body .widget_block .wp-block-group__inner-container h5::before, 
+body .widget_block .wp-block-group__inner-container h6::before, 
+body span.header-after:after{
+        background: #12A86B;
+}
+
+body.dark .latest-posts-full .header-details-wrapper .entry-title a:hover, body.dark .entry-title a:visited:hover, body.dark .entry-title a:hover, body.dark h3.article-title.article-title-1 a:visited:hover, body.dark h3.article-title.article-title-1 a:hover, body.dark .trending-posts-carousel h3.article-title a:visited:hover, body.dark .trending-posts-carousel h3.article-title a:hover, body.dark .exclusive-slides a:visited:hover, body.dark .exclusive-slides a:hover, body.dark .article-title.article-title-1 a:visited:hover, body.dark .article-title.article-title-1 a:hover, body.dark .article-title a:visited:hover, body.dark .article-title a:hover, .entry-title a:visited:hover, .entry-title a:hover, h3.article-title.article-title-1 a:visited:hover, h3.article-title.article-title-1 a:hover, .trending-posts-carousel h3.article-title a:visited:hover, .trending-posts-carousel h3.article-title a:hover, .exclusive-slides a:visited:hover, .exclusive-slides a:hover, .article-title.article-title-1 a:visited:hover, .article-title.article-title-1 a:hover, .article-title a:visited:hover, .article-title a:hover{
+    color: #12A86B;
+}
+
+
+
+body .main-navigation{
+    background: #000000;
+}
+
+body a:hover,
+body a:focus,
+body a:active,
+body .figure-categories-2 .cat-links a
+{
+        color: #12A86B;
+}
+
+body #loader:after {
+  border-left-color: #12A86B;
+}
+
+.site-footer {
+    background: #031c27;
+    color: #fff;
+}
+
+.site-footer a, 
+.site-footer a:hover, 
+.site-footer a:visited, 
+.site-footer a:active {
+    color: #fff;
+}
+
+
+.header-layout-3 .site-header .site-branding .site-title{
+    font-size: 100px;
+}
+
+@media only screen and (max-width: 320px){
+.main-navigation.aft-sticky-navigation span.af-mobile-site-title-wrap .site-title {
+    font-size: 26px;
+    line-height: 55px;
+    }
+}

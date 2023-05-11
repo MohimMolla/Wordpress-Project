@@ -1,0 +1,7 @@
+.largefont, .largefont p{font-size:16px;}
+.skt-salon-notice-container{width:100%; padding:15px 0 15px 0;}
+.skt-salon-notice-img{float:left; text-align:left; width:13%;}
+.skt-salon-notice-content{float:left; text-align:left; width:85%; padding-top:33px;}
+.skt-salon-notice-heading{font-size:20px; font-weight:600;}
+.skt-salon-clear{clear:both;}
+.wp-block{max-width: 1210px !important;}

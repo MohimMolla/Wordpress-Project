@@ -1,0 +1,156 @@
+/* Author Box.
+--------------------------------------------- */
+.author-box {
+	padding: 2%;
+	width: 100%;
+	display: inline-block;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+}
+
+.author-img img {
+	margin-right: 15px;
+}
+
+.author-name {
+	padding-bottom: 10px;
+}
+
+.share {
+	.fa-twitter {
+		color: #55acee;
+	}
+
+	.fa-facebook-square {
+		color: #3b5998;
+	}
+
+	.fa-google-plus-square {
+		color: #dd4b39;
+	}
+
+	.fa-pinterest {
+		color: #cc2127;
+	}
+}
+
+.author-box {
+	margin-top: 30px;
+}
+
+/* Related Posts.
+--------------------------------------------- */
+.related-posts-main-title {
+	.fa {
+		color: $color__primary;
+	}
+
+	span {
+		font-size: 26px;
+		padding-left: 10px;
+	}
+}
+
+.single-related-posts {
+	width: 32.5%;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	margin-right: 1.25%;
+	float: left;
+	margin-bottom: 25px;
+
+	img {
+		margin-bottom: 0;
+	}
+}
+
+.related-posts .single-related-posts:nth-child( 3n+3 ) {
+	margin-right: 0;
+}
+
+.single-related-posts {
+	.article-content {
+		padding: 0 10px;
+	}
+
+	.byline {
+		display: none;
+	}
+
+	.article-content {
+		.entry-title {
+			padding: 10px 0 0;
+			font-size: 18px;
+
+			a {
+				color: #232323;
+				text-shadow: none;
+
+				&:hover {
+					color: $color__primary;
+				}
+			}
+		}
+
+		.below-entry-meta {
+			.posted-on, .byline {
+				padding-right: 10px;
+			}
+
+			.posted-on .fa {
+				color: #888888;
+				font-size: 10px;
+				padding-right: 3px;
+			}
+
+			.byline .fa, .comments .fa {
+				color: #888888;
+				padding-right: 5px;
+				font-size: 11px;
+			}
+
+			.posted-on a, .byline a, .comments {
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+.related-posts-wrapper {
+	position: relative;
+	margin-top: 30px;
+}
+
+/* Social Sharing.
+--------------------------------------------- */
+.share-buttons {
+	display: inline-block;
+}
+
+.box {
+	border: 1px solid $color__border;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+.count {
+	background: none repeat scroll 0 0 #f2f2f2;
+	color: $color__primary;
+	float: right;
+	font-size: 22px;
+	padding: 0 16px;
+}
+
+.share {
+	float: left;
+	margin-right: 10px;
+}
+
+#twitter, #facebook, #googleplus, #pinterest {
+	float: left;
+
+	&.share {
+		margin-right: 0;
+		padding: 0 10px;
+		cursor: pointer;
+	}
+}

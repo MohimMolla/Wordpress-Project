@@ -1,0 +1,31 @@
+div.theme-review-notice,
+div.covernews-notice {
+  position: relative;
+  padding: 10px 50px 10px 10px;
+}
+
+.covernews-notice .links {
+  padding-bottom: 10px;
+}
+
+.theme-review-notice .links {
+  margin: 10px 0;
+}
+
+.theme-review-notice .links a {
+  margin-left: 10px;
+}
+
+.covernews-notice .links a .dashicons,
+.theme-review-notice .links a .dashicons {
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.theme-review-notice .links a.button-primary {
+  margin-left: 0;
+}
+
+a.covernews-notice-dismiss {
+  text-decoration: none;
+}
